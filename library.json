@@ -1,0 +1,22 @@
+{
+  "name": "PosixAsyncTCP",
+  "version": "0.1.0",
+  "keywords": "async, tcp, async-tcp, websocket, posix, host, linux, macos",
+  "description": "Asynchronous TCP Library for HOST/POSIX targets (Linux/macOS)",
+  "authors": [
+    {
+      "name": "Will Miles",
+      "url": "https://github.com/MitchBradley",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MitchBradley/PosixAsyncTCP"
+  },
+  "homepage": "https://github.com/MitchBradley/PosixAsyncTCP",
+  "license": "LGPL-3.0",
+  "frameworks": "arduino",
+  "platforms": "native",
+  "headers": "AsyncTCP.h"
+}
