@@ -1,6 +1,7 @@
 # PosixAsyncTCP
 
-PosixAsyncTCP is an AsyncTCP-compatible library for HOST/POSIX targets (Linux/macOS), designed to provide the same callback-driven TCP API shape used by async web stacks.
+PosixAsyncTCP is an AsyncTCP-compatible library for HOST/POSIX targets (Linux/macOS), designed to provide the same callback-driven TCP API as (ESP) AsyncTCP and RPAsyncTCP.  In conjunction with https://github.com/pschatzmann/Arduino-Emulator and
+https://github.com/ESP32Async/ESPAsyncWebServer, it can be used to create asynchronous web server apps that are compatible with ones on ESP32 and RP2040/2350 processors.
 
 ## Features
 
@@ -78,7 +79,6 @@ Core classes:
 ## License
 
 LGPL-3.0
-5. **Signal Handling** — select() interrupted by signals; use non-blocking in callbacks
 
 ## Building on Different Systems
 

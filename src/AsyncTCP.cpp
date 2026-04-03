@@ -1,3 +1,5 @@
+// Copyright 2026 Mitch Bradley
+
 #include "AsyncTCP.h"
 
 #include <sys/socket.h>

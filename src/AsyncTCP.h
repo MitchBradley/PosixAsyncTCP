@@ -1,3 +1,5 @@
+// Copyright 2026 Mitch Bradley
+
 #ifndef POSIX_ASYNC_TCP_H_
 #define POSIX_ASYNC_TCP_H_
 
