@@ -647,7 +647,8 @@ void AsyncServer::begin() {
         return;
     }
 
-    // Register with polling manager
+    // Ensure the polling manager is running, then register
+    PosixAsyncTCPManager::getInstance().begin();
     PosixAsyncTCPManager::getInstance().registerServer(this);
 }
 
